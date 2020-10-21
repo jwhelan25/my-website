@@ -1,0 +1,237 @@
+body{
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+}
+ 
+header {
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    background: black;
+    text-align: center;
+    line-height: 150%;
+}
+ 
+header h1 {
+    color: white;
+    font-size: 350%;
+    font-family:  calibri, arial, sans-serif;
+    line-height: 100%;
+    padding-top: 20px;
+}
+
+header h3{
+    color: white;
+    font-size: 25 px;
+    font-family: Helvetica, arial, sans-serif;
+    line-height: 0%;
+    text-align: center;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+}
+
+header nav ul li{
+    margin-top:20px;
+}
+
+header nav ul li a{
+text-decoration: none;
+background-color: #ffffff;
+margin-left: -100px;
+padding: 5px;
+border-radius:10px;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+main section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main section div p a{
+    text-decoration: none;
+}
+
+h2 {
+    color: black;
+    font-size: 30 px;
+    font-family: Helvetica, arial, sans-serif;
+    line-height: 125%;
+    text-align: center;
+ }
+ 
+h3 {
+    color: white;
+    font-size: 25 px;
+    font-family: Helvetica, arial, sans-serif;
+    line-height: 0%;
+    text-align: center;
+ }
+ 
+h4 {
+    color: black;
+    font-size: 15 px;
+    font-family: Helvetica, arial, sans-serif;
+    text-align: center;
+}
+
+h5 {
+    color: #ffffff;
+    font-size: 15 px;
+    font-family: Helvetica, arial, sans-serif;
+    text-align: center;
+}
+ 
+section img {
+    border-radius: 50%;
+    align-self: center;
+}
+
+footer {
+    background-color: #000;
+}
+ 
+p {
+    color: black;
+    font-size: 20 px;
+    font-family: Helvetica, arial, sans-serif;
+    width: -500px;
+}
+
+ /*I adjusted the alignment and margin for the list items for aesthetic reasons(thanks Shuddha :) */
+body li {
+    color: rgb(23, 82, 94);
+    font-size: 20 px;
+    font-family: Helvetica, arial, sans-serif;
+    margin-left: 65px;
+}
+
+
+
+ /* i wanted to add my own color twist on these */
+ a:link {color: black;}
+ a:visited {color: rgb(23, 82, 94);}
+ a:hover {color: grey;}
+ a:active {color: black;}
+
+
+/* class to center text*/
+.center {
+    text-align: center;
+}
+
+.extra-bump{
+    margin-left: 70px;
+}
+
+ 
+ /* I really liked this 45 degree angle horizontal rule so I recreated it a little differently here */
+hr {
+   width: 20px;
+   height: 20px;
+   border: none;
+   background: #000;
+   color: #000;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   transform: rotate(45deg);
+}
+
+/*class for background*/
+.backg {
+    background-color:rgb(236, 236, 236);
+    border-radius:10%;
+    padding: 25px;
+}
+
+.project{
+    text-align: center;
+}
+
+.contact{
+    text-align: center;
+    padding: 5px;
+}
+
+
+@media all and (min-width:615px) {
+    
+    header nav ul{
+        flex-direction: row;
+    }
+
+    header nav ul li {
+        margin-top: 0px;
+    }
+    
+    header nav ul li a{
+        margin-left: 0px;
+    }
+    
+    
+    header nav ul li:last-child a {
+        margin-right: 115px;
+    } 
+}
+/* portion to adjust nav when user is on a computer */
+@media all and (min-width:1175px) {
+
+    header {
+        display: flex;
+        justify-content: space-between; 
+        flex-direction: row;
+        background: black;
+        line-height: 150%;
+    }
+     
+    header h1 {
+        color: white;
+        font-size: 350%;
+        font-family:  calibri, arial, sans-serif;
+        line-height: 100%;
+        padding-left: 20px;
+    }
+    
+    header h3{
+        color: white;
+        font-size: 25 px;
+        font-family: Helvetica, arial, sans-serif;
+        line-height: 0%;
+        text-align: center;
+        padding-top: 65px;
+        margin-left: 160px;
+    }
+    
+    header nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        list-style: none;
+        padding-top: 60px;
+    }
+    
+    
+    header nav ul li:last-child a {
+        margin-right: 30px;
+    } 
+}

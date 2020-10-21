@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--HEAD-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Josh Whelan's Website</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <!--BODY-->
+  <body>
+    <!-- The header has my h1 line and my navigation menu (as simple as it is)-->
+    <header>
+      <h1> Josh Whelan </h1>
+      <h3> Software Developer </h3>
+      <nav> 
+        <ul>
+          <li><a href="#intro">Introduction</a></li>
+          <li><a href="#about">About-Me</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!--This first section has my header and a breif introduction-->
+      <hr>
+      <div class="backg">
+        <section>
+          <img src="images/josh.jpg.jpg" width="400" alt="A photo of Josh Whelan">
+        </section>
+        <section>  
+          <h2 id="intro"> Hello, I'm Josh Whelan </h2>
+          <div>
+            <p> I live in Hull, Massachusetts.</p>
+            <p> I'm a software developer with experience in many different academic areas and professional industries.</p>
+            <p> Take a look at my website and please feel free to <a class="workonwhite" href="#contact">Contact Me</a>.</p>
+          </div> 
+        </section>
+      </div>
+      <hr>
+      <!--This article dives into my life and the journey that brought me here today-->
+      <article class="backg">
+        <h2 id="about"> About Me </h2>
+        <div>
+          <p>In 2018 I graduated from Stonehill College with a Bachelor's Degree in Finance with a double minor in Philosophy and Chinese. When I first entered the job market I wasn't sure what kind of role would be the best fit for me. I worked as a:</p>
+          <ul>
+            <li> Operations Analyst in a Wharehouse </li>
+            <li> Customer Service Representative </li>
+            <li> Insurance Salesperson </li>
+          </ul>
+          <p> Through this process I realized that my true passions were:</p>
+          <ul>
+            <li> Solving Problems </li>
+            <li> Working with others </li>
+            <li> Learning new things </li>
+          </ul>
+          <p> These realizations lead me to pursue a career that I had always dreamed about in the back of my mind; being a software engineer! </p>
+          <p> If you employ me as a web app developer I can provide development in coding languages such as:</p>
+            <ul>
+              <li> HTML </li>
+              <li> CSS </li>
+              <li> javaScript </li>
+            </ul>
+        </div>
+      </article>
+      <hr>
+      <!--This third section provides contact information so that anyone who visits the site can get into contact with me-->
+      <section class="backg">
+        <h2 id="contact"> Contact Information </h2>
+        <p class="center"> Please contact me through one of these methods:</p>
+        <ol class="extra-bump">
+          <!--I had the Absolute link paths below open to a new tab so that they wont kick themselves off the page by accident-->
+          <li> My <a href="https://www.linkedin.com/in/joshwhelan2525/" target="_Blank">LinkedIn</a> Profile.</li>
+          <li> My <a href="https://github.com/jwhelan25" target="_Blank">GitHub</a> Profile.</li>
+          <li> Or email me at <br> <a href="mailto:josh25whelan@gmail.com" target="_blank" rel="noopener noreferrer">josh25whelan@gmail.com</a></li>
+        </ol>
+        <div>
+          <form action="https://formspree.io/f/mayleonp" method="POST">
+            <fieldset>
+              <legend>Contact Me</legend>
+                <div class="contact">
+                  <label for="name" >Name:</label>
+                  <input id="name" type="text" name="name">
+                </div>
+                <div class="contact">
+                  <label for="emailAddress">Email Address:</label>
+                  <input id="emailAddress" type="email" name="_replyto">
+                </div>
+                <div class="contact">
+                  <label for="form-message">Your Message:</label>
+                </div>  
+                <div class="contact">  
+                  <textarea id="form-message" name="message" placeholder="Your message to me"></textarea>
+                </div>
+                <div class="contact">
+                  <input type="submit" value="Send">
+                </div>
+            </fieldset>
+          </form>
+        </div>
+      </section>  
+      <hr>
+      <!-- Project Section -->
+      <section>
+        <div class="backg">
+          <h2>My Projects</h2>
+          <br>
+          <div>
+            <h4>Project One</h4>
+            <p>Project Description:</p>
+            <br>
+            <p>The skills used for this project:</p>
+            <br>
+            <p>Link to the GitHub repo is <a href="" target="_Blank">here</a></p>
+            <br>
+            <p>Link to the live app is <a href="" target="_Blank">here</a></p>
+          </div>
+        </div>
+        <hr>
+        <div class="backg">
+          <h4>Project Two</h4>
+          <p>Project Description:</p>
+          <br>
+          <p>The skills used for this project:</p>
+          <br>
+          <p>Link to the GitHub repo is <a href="" target="_Blank">here</a></p>
+          <br>
+          <p>Link to the live app is <a href="" target="_Blank">here</a></p>
+          <br>
+        </div>
+        <hr>
+        <div class="backg">
+          <h4>Project Three</h4>
+          <p>Project Description:</p>
+          <br>
+          <p>The skills used for this project:</p>
+          <br>
+          <p>Link to the GitHub repo is <a href="" target="_Blank">here</a></p>
+          <br>
+          <p>Link to the live app is <a href="" target="_Blank">here</a></p>
+          <br>
+        </div>
+      </section>
+      <hr>
+      <footer>
+        <h5>Josh Whelan</h5>
+      </footer>  
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
