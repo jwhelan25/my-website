@@ -41,12 +41,13 @@ header nav ul{
 
 header nav ul li{
     margin-top:20px;
+    margin-left: 65px
 }
 
 header nav ul li a{
 text-decoration: none;
 background-color: #ffffff;
-margin-left: -100px;
+margin-left: -100px; 
 padding: 5px;
 border-radius:10px;
 }
@@ -115,7 +116,6 @@ p {
     color: black;
     font-size: 20 px;
     font-family: Helvetica, arial, sans-serif;
-    width: -500px;
 }
 
  /*I adjusted the alignment and margin for the list items for aesthetic reasons(thanks Shuddha :) */
@@ -123,9 +123,7 @@ body li {
     color: rgb(23, 82, 94);
     font-size: 20 px;
     font-family: Helvetica, arial, sans-serif;
-    margin-left: 65px;
 }
-
 
 
  /* i wanted to add my own color twist on these */
