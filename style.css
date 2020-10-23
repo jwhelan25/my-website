@@ -46,6 +46,7 @@ header nav ul{
  
 header nav ul li{
     margin-top:20px;
+    margin-left: -40px;
 }
  
 header nav ul li a{
