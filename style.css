@@ -1,10 +1,5 @@
 body{
     margin:0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-items: center;
-    align-content: center;
 }
  
 header {
@@ -13,31 +8,31 @@ header {
     flex-direction: column;
     background: black;
     text-align: center;
-    line-height: 150%;
     margin: 0;
 }
  
 header h1 {
     color: white;
     font-size: 350%;
-    font-family:  calibri, arial, sans-serif;
+    font-family:  'calibri', arial, sans-serif;
     line-height: 100%;
     padding-top: 20px;
 }
  
 header h3{
     color: white;
-    font-size: 25 px;
+    font-size: 150%;
     font-family: Helvetica, arial, sans-serif;
     line-height: 0%;
-    text-align: center;
 }
 header nav{
     margin: 0;
 }
  
 header nav ul{
-    margin-left: 0;
+    margin: 0;
+    padding-inline: 0;
+    padding-bottom: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -46,7 +41,6 @@ header nav ul{
  
 header nav ul li{
     margin-top:20px;
-    margin-left: -40px;
 }
  
 header nav ul li a{
@@ -174,6 +168,7 @@ hr {
     padding: 5px;
 }
  
+/* adds border radius to backround elements*/
 @media all and (min-width:475px) {
 
     .backg{
@@ -181,6 +176,8 @@ hr {
         padding: 25px;
     }
 }
+
+/*changes nav to second iteration*/
 @media all and (min-width:615px) {
     
 
@@ -193,22 +190,19 @@ hr {
     }
  
     header nav ul li {
-        margin-top: 0px;
-        margin-left: 65px;
+        margin:0;
+        padding: 10px;
     }
     
     header nav ul li a{
-        margin-left: 0; 
-    }
-    
-    
-    header nav ul li:last-child a {
-        margin-right: 115px;
-    } 
+        margin-left: auto; 
+        margin-right: auto; 
+        justify-content: center;
 
+    }
 }
 /* portion to adjust nav when user is on a computer */
-@media all and (min-width:1175px) {
+@media all and (min-width:1205px) {
  
     header {
         display: flex;
@@ -233,7 +227,7 @@ hr {
         line-height: 0%;
         text-align: center;
         padding-top: 65px;
-        margin-left: 160px;
+        margin-left: 0px;
     }
     
     header nav ul{
