@@ -31,7 +31,8 @@ header nav{
  
 header nav ul{
     margin: 0;
-    padding-inline: 0;
+    padding-left: 0;
+    padding-right:0;
     padding-bottom: 15px;
     display: flex;
     flex-direction: column;
